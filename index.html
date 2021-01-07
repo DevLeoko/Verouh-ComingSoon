@@ -8,6 +8,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
   <link rel="stylesheet" href="style.css">
 
   <title>Verouh Watches</title>
@@ -15,17 +18,21 @@
 
 <body>
   <main>
-    <img id="logo" src="logo.png" alt="Verouh logo">
+    <img id="logo" src="verouh.svg" alt="Verouh logo">
     <h1>Comming soon</h1>
     <p>We're still working on creating our website. We'll be here for you soon. Feel free to follow us on <a
-        href="insta">instagram</a> or subscribe to our newsletter to stay updated and get notified about discounts.</p>
+        href="http://instagram.com/verouhwatches">instagram</a> or subscribe to our newsletter to stay updated and get
+      notified about discounts.</p>
     <div id="links">
-      <div class="link email">
+      <div class="link email" onclick="alert('We are still setting up our newsletter. Please check back in later!')">
         <input type="text" placeholder="your@email.com">
         <div>SUBSCRIBE</div>
       </div>
-      <a class="link basic">FOLLOW US</a>
-      <a class="link basic">SUPPORT US ON KICKSTART</a>
+      <a class="link basic" target="_blank" href="http://instagram.com/verouhwatches"><img src="instagram.svg"
+          alt="Instagram icon">
+        FOLLOW US</a>
+      <a class="link basic" href="#" onclick="alert('Our kickstarter campain has yet to be launched. Stay tuned!')"><img
+          src="kickstarter.svg" alt="Kickstarter icon"> SUPPORT US ON KICKSTART</a>
     </div>
   </main>
 </body>

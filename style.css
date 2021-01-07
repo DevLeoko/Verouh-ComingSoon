@@ -53,6 +53,7 @@ main #links .link {
   font-size: 10pt;
   margin: 5px;
   text-decoration: none;
+  color: black;
 }
 main #links .link.email {
   display: flex;
@@ -68,10 +69,17 @@ main #links .link.email input:focus {
 }
 main #links .link.email div {
   color: white;
-  padding: 10px 15px;
+  padding: 8px 15px;
+  cursor: pointer;
 }
 main #links .link.basic {
-  padding: 10px 15px;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+}
+main #links .link.basic img {
+  height: 20px;
+  margin-right: 8px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -59,6 +59,7 @@ main {
       font-size: 10pt;
       margin: 5px;
       text-decoration: none;
+      color: black;
 
       &.email{
         display: flex;
@@ -76,12 +77,20 @@ main {
 
         div {
           color: white;
-          padding: 10px 15px;
+          padding: 8px 15px;
+          cursor: pointer;
         }
       }
 
       &.basic {
-        padding: 10px 15px;
+        padding: 8px 15px;
+        display: flex;
+        align-items: center;
+
+        img {
+          height: 20px;
+          margin-right: 8px;
+        }
       }
     }
   }
