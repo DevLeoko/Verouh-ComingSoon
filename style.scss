@@ -5,7 +5,7 @@ html {
 
   background-image: url("background.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: 0% 70%;
   background-repeat: no-repeat;
 }
 
@@ -17,8 +17,18 @@ body {
   align-items: center;
 }
 
+.impressum{
+  color: white;
+  padding: 3px 7px;
+  font-size: 11pt;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+
 main {
-  padding: 5vw 8vw;
+  padding: 7vh 8vw;
   max-width: 500px;
   background: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
